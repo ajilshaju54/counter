@@ -21,7 +21,7 @@ function Counter() {
     }
 
   return (
-    <div>
+    <div className="center">
        <h4>COUNTER</h4>
          <h2>The Number Is : {counter}</h2>
          <button className="firstButton" onClick={increment}>increment</button>

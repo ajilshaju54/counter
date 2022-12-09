@@ -11,7 +11,7 @@ const Employee=[
 ]
 
   return (
-    <div>
+    <div className='center2'>
       {
         Employee.map(item=>(
             <p>username:{item.username}
